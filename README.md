@@ -22,7 +22,7 @@
 import { DynamicComponentInjectorService } from 'src/app/services/dynamic-component-injector.service';
 ```
 
--To add the component dynamically.
+- To add the component dynamically.
 
 ```typescript
   let component = this.componentInjector.injectComponent(this.controlTypeId, this.options, this.container);
